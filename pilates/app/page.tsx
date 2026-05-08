@@ -1,11 +1,11 @@
 'use client'
 import React from "react";
 import Image from "next/image";
-import BenefitsSection from "@/app/src/components/landing/aboutSection/page";
-import HeroSection from "@/app/src/components/landing/heroSection/page";
-import Navbar from "@/app/src/components/landing/Navbar.jsx/page";
-import Sobre from "@/app/src/components/landing/sobre/page";
-import Modalidade from "@/app/src/components/landing/modalidadesSection/page";
+import BenefitsSection from "@/app/components/landing/aboutSection/page";
+import HeroSection from "@/app/components/landing/heroSection/page";
+import Navbar from "@/app/components/landing/Navbar.jsx/page";
+import Sobre from "@/app/components/landing/sobre/page";
+import Modalidade from "@/app/components/landing/modalidadesSection/page";
 
 export default function AppPilates() {
   return (

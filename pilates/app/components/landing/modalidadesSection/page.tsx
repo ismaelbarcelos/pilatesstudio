@@ -24,17 +24,21 @@ const modalities = [
 
 export default function Modalidade(){
   return(
-    <div id="modalidades">
-      <section className="mt-25">
-        <div className="flex justify-center font_heading">
-          <h2 className="text_green font-medium ">Modalidades</h2>
+    <div  >
+      <section id="modalidades" className="pt-50">
+        <div className=" flex-col mx-auto font_heading">
+          <h2 className="text_green font-medium">Modalidades</h2>
           <h1>Encontre a aula <em>perfeita</em> para você</h1>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {modalities.map((mod,i)=><div><img src={mod.image} alt="" /> <p>{mod.description}</p><div/>}
-         <img src="" alt="" />
-          
+
+           {modalities.map((mod,indice)=>
+           <div>
+            <img src={mod.image} alt="" />
+            <p>{mod.description}</p> 
+            </div>)}
+        
         </div>
         
       </section>
