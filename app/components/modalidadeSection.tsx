@@ -36,7 +36,7 @@ export default function Modalidade(){
            {modalities.map((mod,indice)=>
            <div>
             <img src={mod.image} alt="" />
-            <p>{mod.description}</p> 
+            <p className="mt-10">{mod.description}</p> 
             </div>)}
         
         </div>
