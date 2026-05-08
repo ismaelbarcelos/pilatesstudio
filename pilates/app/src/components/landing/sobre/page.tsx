@@ -31,7 +31,7 @@ return(
       </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-6 mt-10">
+      <div className="grid grid-cols-3 gap-6 mt-10 font_heading">
       <p className="text-4xl font-medium">500+</p>
        <p className="text-4xl font-medium">8</p>
       <p className="text-4xl font-medium">15</p>
